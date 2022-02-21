@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 3000px;
+    height: 3000px;
+    margin: auto;
+}
+header{
+    height: 90px;
+    background-color: rgb(255, 115, 0);
+    padding: 0;
+    margin: 0;
+}
+header a>img{
+    width: 130px;
+    float: left;
+    padding: 25px;
+}
+header>a{
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 17px;
+    padding: 30px;
+}
+nav>img{
+    width: 1519px ;
+    
+}
+article>h1{
+    text-align: center;
+    font-size: 30px;
+}
+article>img{
+    float: left;
+    padding: 5px;       
+}
+article>h3{
+    text-align: center;
+    line-height: 50px;
+}
+
+
+/* Sản Phẩm */
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+
+.khung{
+    width: 270px;
+    height: 330px;
+    border: 1px solid rgb(199, 199, 194);
+    float: left;
+
+}
+.SanPham{
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+    padding: 0px;
+}
+.SanPham >a>img{
+    width: 260px;
+    height: 230px;
+}
+.SanPham h4{
+    margin: 0 15px;
+}
+
+/* ifram */
+
+
+/* chi tiết sản phẩm */
+
+/* footer */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    background-color: #131921;
+    padding-bottom: 4rem;
+}
+footer {
+    height: 400px;
+    background-color: #131921;
+}
+.footer{
+    width: 80%;
+        height: 40vh;
+        background-color: #131921;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto ;
+        color: white;
+        padding-top: 50px;
+}
+.footer-healding{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-healding h4 {
+    margin-bottom: 2rem;
+}
+.footer-healding a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem
+}
+.footer-healding a:hover {
+    color: red;
+    transition: 0.3s ease-out;
+}
+
+
+/*menu con */
+.container Li a{
+    color: white;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+.container li{
+    position: relative;
+}
+.container ul.sub-menu{
+    position: absolute;
+    background-color: #131921;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+.container ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #434343 ;
+}
+/*  giỏ hàng  */
+.card{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.card h2{
+    margin-bottom: 100px;
+}
+.card table{
+    width: 100%;
+}
+.card table thead tr th:first-child{
+    text-align: left;
+    padding-left: 50px;
+}
+.card table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.card table thead tr th:last-child{
+    text-align: right;
+}
+.card table tbody tr td:last-child{
+    text-align: right;
+}
